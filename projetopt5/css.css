@@ -1,0 +1,344 @@
+@font-face {
+  font-family: "sergio";
+  src: url("KaushanScript-Regular.otf");
+}
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  color: rgb(255, 0, 0);
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "sergio";
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.ju {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  background-color: rgb(170, 39, 39);
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 2px;
+  font-family: "Times New Roman", Times, serif;
+}
+.judas {
+  font-size: 18px;
+  text-align: right;
+  background-color: rgb(229, 213, 234);
+}
+a {
+  text-decoration: none;
+  color: rgb(218, 0, 0);
+  padding: 10px;
+}
+body {
+  background-image: url(https://cdn.wallpapersafari.com/12/46/zn04Md.jpg);
+}
+.juca {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  background-clip: text;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border: 2px solid rgba(0, 0, 0, 0.6);
+}
+.jumanji {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.15);
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  background-clip: text;
+  border-radius: 10px;
+}
+.uou {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 60%;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.15);
+  background-clip: text;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.6);
+}
+.form {
+  background-color: rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 38px;
+  color: rgb(218, 0, 0);
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: #000000;
+}
+.fotos {
+  transition: scale 400ms;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin-bottom: 10 px;
+  margin-top: 10px;
+  height: 200px;
+}
+.fotos:hover {
+  scale: 120%;
+}
+.album {
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pp {
+  transition: scale 400ms;
+  margin-left: 20px;
+  color: #fff;
+}
+#cs {
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.pp:hover {
+  background-color: rgba(255, 255, 255, 0.267);
+  scale: 116%;
+}
+.pp:active {
+  color: #000;
+}
+.ipt {
+  width: 90px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.ipt:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.ipt:active {
+  color: #000;
+}
+
+.ipt:active:after {
+  background: transparent;
+}
+
+.ipt:hover:before {
+  opacity: 1;
+}
+
+.ipt:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(170, 39, 39);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.botaoipt {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+body.dark-mode {
+  background-color: #111;
+  background-image: none;
+}
+
+button#dark-mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+body.dark-mode p {
+  color: rgb(172, 172, 172);
+}
+body.dark-mode h3 {
+  color: rgb(172, 172, 172);
+}
+body.dark-mode h4 {
+  color: rgb(172, 172, 172);
+}
+body.dark-mode form {
+  color: rgb(172, 172, 172);
+}
+body.dark-mode table {
+  color: rgb(172, 172, 172);
+  background-color: #111;
+}
+toggle-container {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+#dark-mode-toggle {
+  width: 90px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+#dark-mode-toggle:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+#dark-mode-toggle:active {
+  color: #000;
+}
+
+#dark-mode-toggle:active:after {
+  background: transparent;
+}
+
+#dark-mode-toggle:hover:before {
+  opacity: 1;
+}
+
+#dark-mode-toggle:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(170, 39, 39);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+table {
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+table td,
+table th {
+  padding: 30px;
+  border: 2px solid white;
+}
+table tr:nth-child(1) {
+  background-color: rgb(170, 39, 39);
+  color: white;
+}
+.tabela {
+  display: flex;
+  justify-content: center;
+}
+table tr:hover {
+  background-color: rgb(130, 130, 130);
+}
