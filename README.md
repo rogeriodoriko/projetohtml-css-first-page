@@ -13,10 +13,16 @@ Este é um projeto criado como parte da disciplina de Desenvolvimento Front-end 
 </ul></p>
 <h2></h2>Como Executar o Projeto</h2>
 <p>-Clone o repositório em sua máquina local.
--Abra o arquivo Pagina1.html em seu navegador.
+-Abra o arquivo Index.html em seu navegador.
 -Explore a página e veja a aplicação dos conceitos aprendidos na disciplina.</p>
 <h2>Contribuições</h2>
 <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir um Pull Request para sugerir melhorias, correções de bugs ou novos recursos.</p>
 
-<h2>Contato</h2>
-<p>Se tiver alguma dúvida ou sugestão, entre em contato comigo pelo e-mail: dorikontato@gmail.com</p>
+## Contato
+
+Se tiver alguma dúvida ou sugestão em relação a este projeto, sinta-se à vontade para entrar em contato:
+
+Rogério Fernandes
+rogerinhoneto@gmail.com
+<a href="https://www.linkedin.com/in/rogerio-fernandes78/">LINKEDIN<a>
+
